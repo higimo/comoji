@@ -1,0 +1,20 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	font: 400 18px/1.6 PT Sans, Sans-Serif;
+	background: #fff;
+	color: #000;
+
+	@media (max-width: 768px) {
+		font-size: 10px;
+	}
+}

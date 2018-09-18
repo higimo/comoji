@@ -1,0 +1,4 @@
+syntax: regexp
+node_modules/
+sftp-config.json
+www/

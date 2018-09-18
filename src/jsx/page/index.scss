@@ -1,0 +1,33 @@
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item {
+	width: 100%;
+	color: #fff;
+}
+
+.item__content {
+	width: 100%;
+	min-height: 20rem;
+	font-size: 8rem;
+	transition: all 300ms ease-out;
+	cursor: text;
+	overflow: hidden;
+	white-space: pre;
+
+	&:hover {
+		font-size: 9rem;
+	}
+
+	@media (max-width: 768px) {
+		font-size: 4rem;
+		
+		&:hover {
+			font-size: 5rem;
+		}
+	}
+}
+
+
